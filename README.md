@@ -131,6 +131,16 @@ All metrics are printed to the terminal. The evaluators use ArcFace/RetinaFace, 
 
 Comparison under two editing prompts (Figure 5 in the paper). Our method changes the reference identity while producing prompt-consistent edited images.
 
+### Additional Scene and Style Results
+
+<p align="center">
+  <a href="assets/scene-additional-results.pdf">
+    <img src="assets/scene-additional-results.png" width="900" alt="Additional scene and style editing results on CelebA-HQ, comparing the reference image, Clean, AdvDM, FaceLock, EditShield, DeContext, and our method across six prompts.">
+  </a>
+</p>
+
+Additional comparisons across scene changes, film noir styling, and a fantasy costume edit. Each row uses the same reference image and editing prompt across all methods. Click the image to view the full-resolution PDF.
+
 ### Identity Protection on CelebA-HQ
 
 Results from Table 1 for the prompt **"a photo of this person"**. ISM measures identity preservation (lower is better for protection); CLIP-IQA measures image quality and CLIP-Score measures prompt alignment (higher is better).
