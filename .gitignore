@@ -1,0 +1,29 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local models, data and generated outputs
+models/
+data/
+outputs/
+*.ckpt
+*.safetensors
+*.pt
+*.pth
+*.h5
+
+# Local credentials and editor settings
+.env
+.env.*
+*.pem
+*.key
+.vscode/
+.idea/

@@ -1,0 +1,25 @@
+# Smoke-tested on Linux x86_64, Python 3.10, NVIDIA RTX A6000 (CUDA 12.8).
+# DeepFace is bundled under evaluate/deepface; do not install another deepface package.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0+cu128
+torchvision==0.26.0+cu128
+transformers==5.19.0
+diffusers==0.41.0
+accelerate==1.14.0
+numpy==1.26.4
+Pillow==11.3.0
+safetensors==0.8.0
+tqdm==4.70.1
+setuptools==81.0.0
+sentencepiece==0.1.99
+openai-clip==1.0.1
+piq==0.8.0
+# Legacy Keras API used by the bundled DeepFace implementation.
+tensorflow==2.10.1
+keras==2.10.0
+protobuf==3.19.6
+retina-face==0.0.18
+mtcnn==1.0.0
+opencv-python==4.10.0.84
+pandas==2.3.3
+gdown==6.1.0
